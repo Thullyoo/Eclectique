@@ -14,6 +14,8 @@ body{
     height: 100vh;
 }
 .header_container{
+    margin-top: 40px;
+    margin-bottom: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -44,8 +46,8 @@ i:hover{
     align-items: center;
     justify-content: center;
     gap: 40px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
 .about_text{
     display: flex;
@@ -73,11 +75,12 @@ i:hover{
     align-items: center;
     width: 100%;
     /* border: 2px solid green; */
-    padding-bottom: 20px;
+    padding-bottom: 50px;
+    padding-top: 50px;
     color: white;
 }
 .menu_img{
-    margin-top: 20px;
+    margin-top: 40px;
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -88,7 +91,7 @@ i:hover{
 }
 .menu_img > a > img{
    border-radius: 20px;
-   padding-bottom: 30px;
+   margin-bottom: 20px;
 }
 .menu_img > a {
     text-decoration: none;
@@ -97,19 +100,45 @@ i:hover{
     flex-direction: column;
 }
 .menu_text{
-    font-size: 20px;
+    font-size: 30px;
 }
 .menu_img > a > img:hover{
     transition: 0.5s;
     transform: scale(1.2);
 }
 .menu_img > a > p{
-    font-size: 25px;
+    font-size: 30px;
     padding-top: 20px;
+    padding-bottom: 10px;
+    position: relative;
+}
+.menu_img > a > p:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 5px; 
+    background-color: #ff8000;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: bottom right;
+    transform-origin: bottom right;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.menu_img > a > p:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    -webkit-transform-origin: bottom left;
+    transform-origin: bottom left;
+    height: 6px; 
 }
 .menu_img > a > p:hover{
-    font-weight: bolder;
-    transition: 0.3s;
+    transition: 0.1s;
+    font-weight: 800;
 }
 .footer_container{
     display: flex;
@@ -117,7 +146,8 @@ i:hover{
     /* border: 1px solid grey; */
     justify-content: left;
     align-items: center;
-    padding-top: 20px;
+    padding: 30px 0px 30px 30px;
+    gap: 20px;
 }
 .footer_text{
     display: flex;

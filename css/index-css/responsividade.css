@@ -1,0 +1,286 @@
+@media screen and (min-width: 1460px) {
+    .menu_img > a > img:hover{
+        transition: 0.5s;
+        transform: scale(1.2);
+    }
+    .header_container{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+    .header_container > img{
+        width: 300px;
+        height: 230px;
+    } 
+    i:hover{
+        transition: 0.3s;
+        color: orange;
+    }  
+    .footer_text > h2 > a:hover {
+        transition: 0.4;
+        color: rgb(144, 134, 134);
+    }
+    .user > ul > li > a > i {
+        font-size: 50px;
+    }
+    .user > ul {
+        display: flex;
+        flex-direction: row;
+    }
+    .social > ul > li > a > i{
+        font-size: 50px;
+    }
+    .social > ul {
+        display: flex;
+        flex-direction: row;
+    }
+    .about_container{
+        padding-top: 50px;
+        display: flex;
+        flex-direction: row;
+    }
+    .about_text > h1{
+        font-size: 50px;
+    }
+    .about_text > p{
+        font-size: 25px;
+    }
+    .footer_text > h2 > a:hover {
+        transition: 0.4;
+        color: rgb(144, 134, 134);
+    }
+    .menu_text {
+        font-size: 35px;
+    }
+    .menu_img {
+        text-decoration: none;
+    }
+    .about_container{
+        gap: 35px;
+    }
+    .menu_img {
+        padding-top: 40px;
+        display: flex;
+        flex-direction: row;
+        gap: 200px;
+    }
+    .menu_img > a > img{
+        width: 350px;
+        height: 250px;
+    }
+    .menu_img > a > p{
+        font-size: 28px;
+        padding-top: 20px;
+        position: relative;
+        padding-bottom: 10px;
+    }
+    .menu_img > a > p:before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 5px; 
+        background-color: #ff8000;
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);
+        transform-origin: bottom left; 
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .menu_img > a > p:hover:before {
+        visibility: visible;
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+        height: 6px; 
+        transform-origin: bottom left;
+    }
+    
+    .menu_img > a > p:hover {
+        transition: 0.1s;
+        font-weight: 800;
+    }
+}
+@media screen and (max-width:1459px) and (min-width:1060px){
+    .footer_text > h2 > a:hover {
+        transition: 0.4;
+        color: rgb(144, 134, 134);
+    }
+    .menu_text > h1{
+        font-size: 40px;
+    }
+    .menu_img > a > img:hover{
+        transition: 0.5s;
+        transform: scale(1.2);
+    }
+    i:hover{
+        transition: 0.3s;
+        color: orange;
+    }
+    .about_container{
+        padding-top: 50px;
+    }
+    .about_text > h1{
+        font-size: 40px;
+    }
+    .about_text > p{
+        font-size: 20px;
+    }
+    .social > ul {
+        display: flex;
+        flex-direction: row;
+    }
+    .user > ul {
+        display: flex;
+        flex-direction: row;
+    }
+    .about_img{
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+    .header_container > img{
+        width: 230px;
+        height: 180px;
+    } 
+    .social > ul > li > a > i{
+        font-size: 40px;
+    }
+    .user > ul > li > a > i {
+        font-size: 40px;
+    }
+    .menu_img {
+        padding-top: 40px;
+        display: flex;
+        flex-direction: row;
+        gap: 80px;
+    }
+    .menu_img > a > img{
+        width: 260px;
+        height: 200px;
+    }
+    .menu_img > a > p{
+        font-size: 23px;
+        position: relative;
+        padding-bottom: 10px;
+    }
+    .about_img > img{
+        width: 180px;
+    }
+    .menu_img > a > p:before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 5px; 
+        background-color: #ff8000;
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);
+        transform-origin: bottom left; 
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .menu_img > a > p:hover:before {
+        visibility: visible;
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+        height: 6px; 
+        transform-origin: bottom left;
+    }
+    
+    .menu_img > a > p:hover {
+        transition: 0.1s;
+        font-weight: 800;
+    }
+}
+@media screen and (max-width:1059px) and (min-width: 800px) {
+    .footer_text > h2 > a:hover {
+        transition: 0.4;
+        color: rgb(144, 134, 134);
+    }
+    .menu_img > a > img:hover{
+        transition: 0.5s;
+        transform: scale(1.2);
+    }
+    i:hover{
+        transition: 0.3s;
+        color: orange;
+    }
+    .about_container{
+        padding-top: 50px;
+    }
+    .about_text > h1{
+        font-size: 40px;
+    }
+    .about_text > p{
+        font-size: 20px;
+    }
+    .social > ul {
+        display: flex;
+        flex-direction: row;
+    }
+    .user > ul {
+        display: flex;
+        flex-direction: row;
+    }
+    .about_img{
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+    .header_container > img{
+        width: 230px;
+        height: 180px;
+    } 
+    .social > ul > li > a > i{
+        font-size: 40px;
+    }
+    .user > ul > li > a > i {
+        font-size: 40px;
+    }
+    .menu_img {
+        padding-top: 40px;
+        display: flex;
+        flex-direction: row;
+        gap: 80px;
+    }
+    .menu_img > a > img{
+        width: 200px;
+        height: 150px;
+    }
+    .menu_img > a > p{
+        font-size: 18px;
+        position: relative;
+        padding-bottom: 10px;
+    }
+    .about_img > img{
+        width: 180px;
+    }
+    .menu_img > a > p:before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 5px; 
+        background-color: #ff8000;
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);
+        transform-origin: bottom left; 
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .menu_img > a > p:hover:before {
+        visibility: visible;
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+        height: 6px; 
+        transform-origin: bottom left;
+    }
+    
+    .menu_img > a > p:hover {
+        transition: 0.1s;
+        font-weight: 800;
+    }
+}

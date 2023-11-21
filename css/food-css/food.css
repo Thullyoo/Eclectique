@@ -1,0 +1,19 @@
+.container_foods form > span > img{
+    width: 280px;
+    height: 180px;
+}
+.container_foods > span > button{
+    color: black;
+}
+.container_foods{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+}
+.container_foods span{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

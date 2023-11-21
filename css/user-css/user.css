@@ -1,0 +1,19 @@
+.pedidos_container h1{
+    color: black;
+    align-self: center ;
+}
+.pedidos_container{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    background-color: white;
+}
+.pedidos_container li{
+    color: black;
+}
+.pedidos_container h2{
+    color: black;
+}
+.pedidos_container > li > a {
+    color: black;
+}

@@ -1,0 +1,124 @@
+@media screen and (min-width: 1460px) {
+    .form_container { 
+        width: 500px;
+    }
+    .header_container{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+    .header_container > img{
+        width: 300px;
+        height: 230px;
+    } 
+    i:hover{
+        transition: 0.3s;
+        color: orange;
+    }  
+    .footer_text > h2 > a:hover {
+        transition: 0.4;
+        color: rgb(144, 134, 134);
+    }
+    .user > ul > li > a > i {
+        font-size: 50px;
+    }
+    .user > ul {
+        display: flex;
+        flex-direction: row;
+    }
+    .social > ul > li > a > i{
+        font-size: 50px;
+    }
+    .social > ul {
+        display: flex;
+        flex-direction: row;
+    }
+    .about_container{
+        padding-top: 50px;
+        display: flex;
+        flex-direction: row;
+    }
+    .about_text > h1{
+        font-size: 50px;
+    }
+    .about_text > p{
+        font-size: 25px;
+    }
+    .footer_text > h2 > a:hover {
+        transition: 0.4;
+        color: rgb(144, 134, 134);
+    }
+    
+}
+@media screen and (max-width:1459px) and (min-width:1060px){
+    .form_container { 
+        width: 500px;
+    }
+    .footer_text > h2 > a:hover {
+        transition: 0.4;
+        color: rgb(144, 134, 134);
+    }
+    i:hover{
+        transition: 0.3s;
+        color: orange;
+    }
+    .social > ul {
+        display: flex;
+        flex-direction: row;
+    }
+    .user > ul {
+        display: flex;
+        flex-direction: row;
+    }
+    .about_img{
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+    .header_container > img{
+        width: 230px;
+        height: 180px;
+    } 
+    .social > ul > li > a > i{
+        font-size: 40px;
+    }
+    .user > ul > li > a > i {
+        font-size: 40px;
+    }   
+}
+@media screen and (max-width:1059px) and (min-width: 800px) {
+    .form_container {
+        width: 500px;
+        padding: 16px;
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    }
+    .footer_text > h2 > a:hover {
+        transition: 0.4;
+        color: rgb(144, 134, 134);
+    }
+    
+    i:hover{
+        transition: 0.3s;
+        color: orange;
+    }
+    .social > ul {
+        display: flex;
+        flex-direction: row;
+    }
+    .user > ul {
+        display: flex;
+        flex-direction: row;
+    }
+    .header_container > img{
+        width: 230px;
+        height: 180px;
+    } 
+    .social > ul > li > a > i{
+        font-size: 40px;
+    }
+    .user > ul > li > a > i {
+        font-size: 40px;
+    }
+}

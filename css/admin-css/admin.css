@@ -1,0 +1,58 @@
+.section_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form_container > input{
+    color: black;
+}
+.newuser_container{
+    width: 300px;
+    height: 210px;
+    padding: 10px;
+    border-radius: 2rem;
+    background-color: white;
+}
+.newuser_container h3{
+    color: black;
+}
+.newuser_container form {
+    color: black;
+}
+.newuser_container input{
+    color: black;
+}
+.newuser_container label{
+    color: black;
+}
+.users{
+    width: 300px;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+    border-radius: 2rem;
+    padding: 10px;
+    color: black;
+}
+.users h3{
+    font-size: 20px;
+    color: black;
+}
+.users a{
+    color: black;
+}
+
+.logout{
+    margin: 0px 0px 20px 20px;
+    background-color: white;
+}
+.logout a{
+    color: black;
+}
+.logout a:hover{
+    background-color: grey;
+}
+.user h2{
+    color: black;
+}

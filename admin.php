@@ -20,8 +20,8 @@
 
     <link rel="stylesheet" href="css/index-css/global.css">
     <link rel="stylesheet" href="css/index-css/responsividade.css">
-    <link rel="stylesheet" href="css\admin-css\admin.css">
-    <link rel="stylesheet" href="css/admin-css/reponsividade.css">
+    <link rel="stylesheet" href="css/admin-css/admin.css">
+    <link rel="stylesheet" href="css/admin-css/responsividade.css">
 
     <link rel="icon" href="assets/logofooter.png">
 
@@ -73,13 +73,15 @@
             </div>
             <div class="users">
                 <h3>Usuarios cadastrados:</h3>
+                <h4 style="color: black;" >Nome | Usuário | Nível</h4>
+                <br>
                 <?php
         include 'show_users.php';
     ?>
             </div>
         </div>
     </section>
-    <span class="logout"><a href="logout.php">SAIR</a></span>
+    <a href="logout.php" class="sair"><button>SAIR</button></a>
     <footer>
         <div class="footer_container">
             <div class="footer_logo">
@@ -91,9 +93,6 @@
                 </h2>
                 <h2>
                     <a href="#">Sobre nós</a>
-                </h2>
-                <h2>
-                    <a href="#">Termos de uso</a>
                 </h2>
             </div>
         </div>

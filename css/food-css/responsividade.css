@@ -1,0 +1,11 @@
+@media screen and (min-width:890px) {
+    .container_foods{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+       
+    }
+    .container_foods form > span img{
+       width: 400px;
+       height: 250px;
+    }
+}

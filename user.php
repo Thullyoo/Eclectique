@@ -72,12 +72,12 @@
     </header>
     <div class="pedidos_container">
        <?php
-        echo "<div class='pedidos_container'> <h1>Olá $usuario!!</h1>";
+        echo "<div class='pedidos'> <h1>Bem vindo $usuario!!</h1>";
         include 'show_items.php'; 
         echo "</div>";
         ?> 
     </div>
-    <a href="logout.php">SAIR</a>
+    <a href="logout.php" class="sair"><button>SAIR</button></a>
     <footer>
         <div class="footer_container">
             <div class="footer_logo">
@@ -89,9 +89,6 @@
                 </h2>
                 <h2>
                     <a href="#">Sobre nós</a>
-                </h2>
-                <h2>
-                    <a href="#">Termos de uso</a>
                 </h2>
             </div>
         </div>

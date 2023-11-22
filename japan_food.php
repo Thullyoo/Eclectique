@@ -46,7 +46,7 @@
                     <h3>Sushi</h3>
                     <input type="hidden" name="item" value="Sushi">
                     <input type="hidden" name="price" value="38">
-                    <input type="submit" value="Adicionar ao Carrinho">
+                    <input type="submit" value="Comprar">
                 </span>
             </form>
             <form action="user.php" method="post">
@@ -55,7 +55,7 @@
                     <h3>Ramen</h3>
                     <input type="hidden" name="item" value="Ramen">
                     <input type="hidden" name="price" value="42">
-                    <input type="submit" value="Adicionar ao Carrinho">
+                    <input type="submit" value="Comprar">
                 </span>
             </form>
             <form action="user.php" method="post">
@@ -64,7 +64,7 @@
                     <h3>Yakitori</h3>
                     <input type="hidden" name="item" value="Yakitori">
                     <input type="hidden" name="price" value="25">
-                    <input type="submit" value="Adicionar ao Carrinho">
+                    <input type="submit" value="Comprar">
                 </span>
             </form>
             <form action="user.php" method="post">
@@ -73,7 +73,7 @@
                     <h3>Mochi</h3>
                     <input type="hidden" name="item" value="Mochi">
                     <input type="hidden" name="price" value="20">
-                    <input type="submit" value="Adicionar ao Carrinho">
+                    <input type="submit" value="Comprar">
                 </span>
             </form>
         </div>
@@ -89,9 +89,6 @@
             </h2>
             <h2>
                <a href="#">Sobre nós</a> 
-            </h2>
-            <h2>
-                <a href="#">Termos de uso</a>
             </h2>
             </div>
         </div>

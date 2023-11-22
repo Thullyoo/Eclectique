@@ -71,9 +71,6 @@
             <h2>
                <a href="#">Sobre nós</a> 
             </h2>
-            <h2>
-                <a href="#">Termos de uso</a>
-            </h2>
             </div>
         </div>
     </footer>

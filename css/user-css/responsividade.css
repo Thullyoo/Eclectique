@@ -1,0 +1,10 @@
+@media screen and (min-width: 890px) {
+    .pedidos{
+        max-width: 400px;
+    }
+}
+@media screen and (min-width: 1100px) {
+    .pedidos{
+        max-width: 600px;
+    }
+}

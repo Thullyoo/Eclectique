@@ -1,0 +1,19 @@
+CREATE DATABASE authth;
+use authth;
+CREATE TABLE credent (
+  username varchar(50) NOT NULL,
+  password varchar(255) DEFAULT NULL,
+  name varchar(50) NOT NULL,
+  level char(1) NOT NULL,
+  PRIMARY KEY (username)
+)
+INSERT INTO `credent` VALUES ('admin','$2y$10$65tM8h4cI57mtSK4RHRtROU/ui/HPQf59iPD28uNf1J6m6gAk0u6C','Administrador do sistema','A');
+
+CREATE TABLE pedidos (
+  id_pedido INT AUTO_INCREMENT PRIMARY KEY,
+  username VARCHAR(50) NOT NULL,
+  item VARCHAR(255) NOT NULL,
+  preco INT NOT NULL,
+  status VARCHAR(50) NOT NULL
+);
+  

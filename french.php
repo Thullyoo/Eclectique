@@ -45,7 +45,7 @@
                     <h3>Croissant</h3>
                     <input type="hidden" name="item" value="Croissant">
                     <input type="hidden" name="price" value="17">
-                    <input type="submit" value="Adicionar ao Carrinho">
+                    <input type="submit" value="Comprar">
                 </span>
             </form>
             <form action="user.php" method="post">
@@ -54,7 +54,7 @@
                     <h3>Ratatouille</h3>
                     <input type="hidden" name="item" value="Ratatouille">
                     <input type="hidden" name="price" value="40">
-                    <input type="submit" value="Adicionar ao Carrinho">
+                    <input type="submit" value="Comprar">
                 </span>
             </form>
             <form action="user.php" method="post">
@@ -63,7 +63,7 @@
                     <h3>Coq au Vin</h3>
                     <input type="hidden" name="item" value="Coq au Vin">
                     <input type="hidden" name="price" value="50">
-                    <input type="submit" value="Adicionar ao Carrinho">
+                    <input type="submit" value="Comprar">
                 </span>
             </form>
             <form action="user.php" method="post">
@@ -72,7 +72,7 @@
                     <h3>Macacarons</h3>
                     <input type="hidden" name="item" value="Macacarons">
                     <input type="hidden" name="price" value="25">
-                    <input type="submit" value="Adicionar ao Carrinho">
+                    <input type="submit" value="Comprar">
                 </span>
             </form>
         </div>
@@ -88,9 +88,6 @@
             </h2>
             <h2>
                <a href="#">Sobre nós</a> 
-            </h2>
-            <h2>
-                <a href="#">Termos de uso</a>
             </h2>
             </div>
         </div>

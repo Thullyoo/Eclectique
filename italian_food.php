@@ -50,7 +50,7 @@
                     <h3>Risoto de Frutos do mar</h3>
                     <input type="hidden" name="item" value="Risoto">
                     <input type="hidden" name="price" value="50">
-                    <input type="submit" value="Adicionar ao Carrinho">
+                    <input type="submit" value="Comprar">
                 </span>
             </form>
             <form action="user.php" method="post">
@@ -59,25 +59,25 @@
                     <h3>Pizza tradicional</h3>
                     <input type="hidden" name="item" value="Pizza">
                     <input type="hidden" name="price" value="54">
-                    <input type="submit" value="Adicionar ao Carrinho">
+                    <input type="submit" value="Comprar">
                 </span>
             </form>
             <form action="user.php" method="post">
                 <span>
                     <img src="assets/ossobuco-salsinha.jpg" alt="">
-                    <h3>Pizza tradicional</h3>
+                    <h3>Ossobuco</h3>
                     <input type="hidden" name="item" value="Ossobuco">
                     <input type="hidden" name="price" value="45">
-                    <input type="submit" value="Adicionar ao Carrinho">
+                    <input type="submit" value="Comprar">
                 </span>
             </form>
             <form action="user.php" method="post">
                 <span>
                     <img src="assets/tiramisu.jpg" alt="">
-                    <h3>Pizza tradicional</h3>
+                    <h3>Tiramisu</h3>
                     <input type="hidden" name="item" value="Tiramisu">
                     <input type="hidden" name="price" value="45">
-                    <input type="submit" value="Adicionar ao Carrinho">
+                    <input type="submit" value="Comprar">
                 </span>
             </form>
         </div>
@@ -93,9 +93,6 @@
                 </h2>
                 <h2>
                     <a href="#">Sobre nós</a>
-                </h2>
-                <h2>
-                    <a href="#">Termos de uso</a>
                 </h2>
             </div>
         </div>

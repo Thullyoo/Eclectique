@@ -113,3 +113,38 @@ i{
     padding-bottom: 10px;
     background-color: rgb(64, 62, 62);
 }
+.sair > button{
+    background-color: rgb(255, 122, 122); 
+  color: white; 
+  padding: 10px 20px; 
+  font-size: 16px; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  margin: 20px;
+}
+.sair > button:hover {
+    background-color: rgba(255, 97, 97, 0.749); 
+}
+.remover_user{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    justify-content: center;
+}
+.remover_user > form > input{
+    color: black;
+}
+.alter_pass{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    justify-content: center;
+}
+.alter_pass > form > input{
+    color: black;
+}

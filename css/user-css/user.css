@@ -4,9 +4,10 @@
 }
 .pedidos_container{
     display: flex;
-    flex-direction: column;
-    margin: 20px;
-    background-color: white;
+    justify-content: center;
+    width: 100%;
+    left: 20;
+    margin-top: 20px;
 }
 .pedidos_container li{
     color: black;
@@ -14,6 +15,24 @@
 .pedidos_container h2{
     color: black;
 }
-.pedidos_container > li > a {
+.pedidos > li > a {
     color: black;
+}
+.pedidos > li > a:hover {
+    color: rgb(255, 105, 105);
+}
+.pedidos{
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    max-width: 280px;
+    height: auto;
+    background-color: rgb(255, 224, 168);
+    width: auto;
+    border-radius: 2rem;
+}
+.footer_container{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
 }

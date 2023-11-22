@@ -13,24 +13,24 @@ while ($row = mysqli_fetch_assoc($usuarios)) {
                     WHERE username = '$usuarionow'";
 
     $pedido = mysqli_query($con, $querypedido);
-
+    echo "<hr> <br>";
     echo $row['name'] .
         " | " . $row['username'] .
         " | " . $row['level'] .
-        "|<a href='confirm_remove.php?user=" . $row['username'] . "'>Remover</a>" .
-        "|<a href='alter_pass.php?user=" . $row['username'] . "'>Alterar</a><br>";
+        " | <a class=removeruser href='confirm_remove.php?user=" . $row['username'] . "'>Remover Usuário</a>" .
+        " | <a class=alterar href='alter_pass.php?user=" . $row['username'] . "'>Alterar Senha</a><br><br>Pedidos de " .$row['username'] .":<br>";
 
    
         if (mysqli_num_rows($pedido) > 0) {
             while ($pedidoRow = mysqli_fetch_assoc($pedido)) {
-                echo $pedidoRow['id_pedido'] . " | " . $pedidoRow['item'] . " | " . $pedidoRow['preco'] . " | " . $pedidoRow['status'];
+                echo "id: " . $pedidoRow['id_pedido'] . " | " . $pedidoRow['item'] . " | R$" . $pedidoRow['preco'] . " | " . $pedidoRow['status'];
         
                 
                 if ($pedidoRow['status'] != 'concluído') {
-                    echo " | <a href='concluido.php?id=" . $pedidoRow['id_pedido'] . "'>Concluir</a>";
+                    echo " | <a class=concluidos href='concluido.php?id=" . $pedidoRow['id_pedido'] . "'>Concluir Pedido</a>";
                 }
-        
-                echo "<br>";
+                
+                echo "<br><br>";
             }
         } else {
             echo "Nenhum pedido associado a este usuário.<br>";
